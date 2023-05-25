@@ -1,0 +1,104 @@
+.chatgpt3__blog{
+    margin-top: 5rem;
+    width: 90%;
+    margin-right: 0;
+}
+.chatgpt3__blog h1{
+background: var(--gradient-text);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 800;
+font-size: 56px;
+line-height: 75px;
+letter-spacing: -0.04em;
+margin-bottom: 5rem;
+width: 100%;
+}
+.chatgpt3__blog-container{
+display: flex;
+flex-direction: row;
+}
+
+.chatgpt3__blog-container_A{
+    flex: 0.55;
+    margin-right: 2rem;
+    width: 100%;
+}
+.chatgpt3__blog-container_B{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+.chatgpt3__blog-container_B .chatgpt3__article{
+    width: 90%;
+}
+.chatgpt3__blog-container_B .chatgpt3__article img,
+.chatgpt3__blog-container_A .chatgpt3__article img{
+    height: 80%;
+}
+@media screen and(max-width:1000px){
+    .chatgpt3__blog-container_B  img{
+        height: 100%; 
+    } 
+}
+@media screen and (max-width: 780px){
+    .chatgpt3__blog-container{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding-right: 0;
+        }
+    .chatgpt3__blog-container_A{
+        width: 90%;
+    }
+    .chatgpt3__blog-container_B .chatgpt3__article{
+        width: 100%;
+    }
+    .chatgpt3__blog-container_B{
+        gap: 1rem;
+        width: 90%;
+    }
+    .chatgpt3__blog h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .chatgpt3__blog{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px){
+    .chatgpt3__blog h1{
+        font-size: 40px;
+        line-height: 54px;
+
+    }
+}
+@media screen and (max-width: 450px){
+    .chatgpt3__blog-container_A{
+        width: 100%;
+    }
+    .chatgpt3__blog{
+        width: 100%;
+        margin: 1rem;
+    }
+    .chatgpt3__blog-container_A{
+        width: 90%;
+    }
+    .chatgpt3__blog-container_A img{
+        height: 80%;
+    }
+    .chatgpt3__blog-container_B{
+       display: flex;
+       flex-direction: column;
+    }
+    .chatgpt3__blog h1{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-size: 30px;
+        line-height: 40px;
+    }
+   
+}

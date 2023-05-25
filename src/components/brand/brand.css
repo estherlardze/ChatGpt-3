@@ -1,0 +1,11 @@
+.chatgpt3__brand{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.chatgpt3__brand img{
+    cursor: pointer;
+}

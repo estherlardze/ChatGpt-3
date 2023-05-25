@@ -1,0 +1,25 @@
+.chatgpt3__feature-content{
+display: grid;
+grid-template-columns: 30% 70%;
+width: 100%;
+margin-bottom: 3rem;
+}
+.chatgpt3__feature-heading{
+    display: flex;
+    flex-direction: column;
+}
+.chatgpt3__feature-bar{
+  width: 45px;
+  height: 3px;
+  background: var(--gradient-bar);
+  border-radius: 6px;
+}
+.chatgpt3__feature-text p{
+color: var(--color-text);
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+}
+
+
+
